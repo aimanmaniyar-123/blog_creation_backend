@@ -5,9 +5,9 @@ load_dotenv()
 
 SETTINGS = {
     # API Keys
-    "PEXELS_API_KEY": os.getenv("PEXELS_API_KEY", "JDwrvBMkYiSWQ9fLWNFLqIrJm8eCKtlqWliKpwEJBbQAondMqtkYwl0o"),
-    "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", ""),
-    "GOOGLE_API_KEY": os.getenv("GOOGLE_API_KEY", ""),
+    "PEXELS_API_KEY": os.getenv("PEXELS_API_KEY"),
+    "GROQ_API_KEY": os.getenv("GROQ_API_KEY"),
+    "GEMINI_API_KEY": os.getenv("GOOGLE_GEMINI_API_KEY"),
 
     # Database
     "DATABASE_PATH": "data/blog_suite.db",
