@@ -24,3 +24,4 @@ schedule
 wordcloud
 seaborn
 scikit-learn
+google-generativeai
