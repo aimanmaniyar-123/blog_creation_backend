@@ -1245,6 +1245,9 @@ async def analytics_overview():
         }
     )
 
+@app.get("/")
+def root():
+    return {"message": "Blog Creation Backend is running!"}
 
 # =========================================================
 # Entry point (optional when running with `uvicorn main:app`)
