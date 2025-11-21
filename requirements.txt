@@ -23,5 +23,7 @@ redis
 schedule
 wordcloud
 seaborn
+fastapi
+uvicorn
 scikit-learn
 google-generativeai
