@@ -22,6 +22,8 @@ celery
 redis
 schedule
 wordcloud
+fpdf2
+python-docx
 seaborn
 fastapi
 uvicorn
